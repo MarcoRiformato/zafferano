@@ -1,10 +1,10 @@
 <template>
     <section>
-        <div class="relative grid w-full bg-indigo-500 h-96 lg:h-[32rem] place-items-center">
+        <div class="relative grid w-full bg-indigo-500 h-96 lg:h-[32rem] place-items-center" style="background-image: url('https://www.ortodacoltivare.it/wp-content/uploads/2015/10/zafferano.jpg');">
             <div class="flex flex-col items-center mx-auto text-center">
-                <h1 class="text-4xl font-semibold text-white uppercase md:text-6xl">Hero Header</h1>
+                <h1 class="text-4xl font-semibold text-white uppercase md:text-6xl">Zafferano Rifo</h1>
 
-                <p class="mt-6 text-lg leading-5 text-white">The best in town.</p>
+                <p class="mt-6 text-lg leading-5 text-white">Raccolto a mano dalla campagna Elbana</p>
 
                 <a href="#about" class="mt-8 cursor-pointer animate-bounce">
                     <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
