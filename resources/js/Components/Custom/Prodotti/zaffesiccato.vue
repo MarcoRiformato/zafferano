@@ -18,9 +18,9 @@
             <img
             :src="imageUrl"
             @mouseenter="imageUrl = 'https://pianetadiriserva.it/wp-content/uploads/zafferano.jpg'"
-            @mouseleave="imageUrl = 'https://www.hugmilano.it/wp-content/uploads/2018/01/zafferano.jpg'"
+            @mouseleave="imageUrl = '/images/secco.png'"
 
-              class="object-cover w-full h-48 mt-2"
+              class="object-cover w-full h-full mt-2"
               alt="Zafferano"
             />
 
@@ -48,7 +48,7 @@
 export default {
   data() {
     return {
-        imageUrl: 'https://www.hugmilano.it/wp-content/uploads/2018/01/zafferano.jpg',
+      imageUrl: '/images/secco.png',
       zoom: false
     }
   }
