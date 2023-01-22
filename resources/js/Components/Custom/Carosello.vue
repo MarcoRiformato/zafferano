@@ -5,7 +5,6 @@
      <Zaffesiccato/>
      <The/>
      <Profumo/>
-     <SingleCard/>
 
     </div>
   </div>

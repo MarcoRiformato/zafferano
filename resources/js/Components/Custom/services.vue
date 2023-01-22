@@ -12,10 +12,10 @@
                     </svg>
                 </span>
 
-                <h1 class="text-2xl font-semibold text-gray-700 capitalize">web design</h1>
+                <h1 class="text-2xl font-semibold text-gray-700 capitalize">Spedizione gratuita</h1>
 
                 <p class="text-gray-500">
-                    Research, user experience testing, mockups, and prototypes
+                    In tutta Italia, per tutti gli ordini
                 </p>
             </div>
 
@@ -28,10 +28,10 @@
                     </svg>
                 </span>
 
-                <h1 class="text-2xl font-semibold text-gray-700 capitalize">development</h1>
+                <h1 class="text-2xl font-semibold text-gray-700 capitalize">Produzione artigianale</h1>
 
                 <p class="text-gray-500">
-                    Research, user experience testing, mockups, and prototypes
+                    Solo con Zafferano piantato, cresciuto e lavorato all'Elba
                 </p>
             </div>
 
@@ -44,10 +44,10 @@
                     </svg>
                 </span>
 
-                <h1 class="text-2xl font-semibold text-gray-700 capitalize">research</h1>
+                <h1 class="text-2xl font-semibold text-gray-700 capitalize">Certificato</h1>
 
                 <p class="text-gray-500">
-                    Research, user experience testing, mockups, and prototypes
+                    Certificati di qualità italiani
                 </p>
             </div>
         </div>
