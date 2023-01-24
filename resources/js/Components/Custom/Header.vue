@@ -4,7 +4,7 @@ let open = ref(false);
 </script>
 <template>
     <header class="bg-indigo-500">
-        <nav class="container relative flex items-center justify-between px-6 py-8 mx-auto text-white">
+        <nav class="container relative flex items-center justify-between px-6 py-3 mx-auto text-white">
             <a href="/">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 md:w-10 md:h-10" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor" stroke-width="2">
@@ -32,7 +32,7 @@ let open = ref(false);
     
             <div :class="[open ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full']"
                 class="absolute inset-x-0 z-30 w-full px-6 py-8 mt-4 space-y-6 transition-all duration-300 ease-in-out bg-indigo-600 top-16 md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:space-y-0 md:-mx-6 md:flex md:items-center">
-                <a href="#" class="block text-white transition-colors duration-300 md:px-6 hover:text-indigo-300"> I benefici dello Zafferano     </a>
+                <a href="/usi" class="block text-white transition-colors duration-300 md:px-6 hover:text-indigo-300"> I benefici dello Zafferano     </a>
                 <a href="#" class="block text-white transition-colors duration-300 md:px-6 hover:text-indigo-300"> Vieni a trovarci     </a>
                 <a href="#" class="block text-white transition-colors duration-300 md:px-6 hover:text-indigo-300"> Pacchetti regalo     </a>
                 <a href="#" class="block text-white transition-colors duration-300 md:px-6 hover:text-indigo-300"> Assistenza Clienti   </a>

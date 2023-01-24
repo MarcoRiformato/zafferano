@@ -1,8 +1,8 @@
 <template>
     <div class="w-full md:w-1/4 px-4 py-6">
-        <div class="rounded-lg shadow-md bg-white">
+        <div class="rounded-lg bg-white">
           <div
-            class="max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800"
+            class="max-w-xs overflow-hidden bg-white rounded-lg dark:bg-gray-800"
           >
             <div class="px-4 py-2">
               <h1
