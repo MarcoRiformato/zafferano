@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\ElbaPackagesController;
 use App\Http\Controllers\UsageController;
+use App\Http\Controllers\VisitUsController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -36,3 +38,5 @@ Route::middleware([
 });
 
 Route::resource('/usi', UsageController::class);
+Route::resource('/visitaci', VisitUsController::class);
+Route::resource('/elbaregalo', ElbaPackagesController::class);

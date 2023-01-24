@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue';
+import { Link } from '@inertiajs/inertia-vue3';
 let open = ref(false);
 </script>
 <template>
@@ -12,7 +13,7 @@ let open = ref(false);
                         d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
                 </svg>
             </a>
-    
+            <Link as="a" href="/">Zafferano Rifo</Link>
             <button @click="open = !open" class="md:hidden">
                 <span v-show="!open">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
@@ -33,8 +34,8 @@ let open = ref(false);
             <div :class="[open ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full']"
                 class="absolute inset-x-0 z-30 w-full px-6 py-8 mt-4 space-y-6 transition-all duration-300 ease-in-out bg-indigo-600 top-16 md:mt-0 md:p-0 md:top-0 md:relative md:bg-transparent md:w-auto md:opacity-100 md:translate-x-0 md:space-y-0 md:-mx-6 md:flex md:items-center">
                 <a href="/usi" class="block text-white transition-colors duration-300 md:px-6 hover:text-indigo-300"> I benefici dello Zafferano     </a>
-                <a href="#" class="block text-white transition-colors duration-300 md:px-6 hover:text-indigo-300"> Vieni a trovarci     </a>
-                <a href="#" class="block text-white transition-colors duration-300 md:px-6 hover:text-indigo-300"> Pacchetti regalo     </a>
+                <a href="/visitaci" class="block text-white transition-colors duration-300 md:px-6 hover:text-indigo-300"> Vieni a trovarci     </a>
+                <a href="/elbaregalo" class="block text-white transition-colors duration-300 md:px-6 hover:text-indigo-300"> Pacchetti regalo     </a>
                 <a href="#" class="block text-white transition-colors duration-300 md:px-6 hover:text-indigo-300"> Assistenza Clienti   </a>
             </div>
         </nav>
