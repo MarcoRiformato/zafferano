@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="relative grid w-full bg-indigo-500 h-96 lg:h-[32rem] " style="background-image: url('/images/sfondo.png'); background-size: cover;">
+        <div class="relative grid w-full bg-indigo-500 h-96 lg:h-[32rem] " style="background-image: url('/images/sfondo.jpg'); background-size: cover;">
             <div class="flex flex-col items-center mx-auto text-center pt-6">
                 <h1 class="text-4xl font-semibold text-white uppercase md:text-6xl" style="color: blueviolet;">Zafferano Rifo</h1>
 

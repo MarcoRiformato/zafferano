@@ -18,10 +18,11 @@
             <img
             :src="imageUrl"
             @mouseenter="imageUrl = 'https://pianetadiriserva.it/wp-content/uploads/zafferano.jpg'"
-            @mouseleave="imageUrl = '/images/secco.png'"
+            @mouseleave="imageUrl = '/images/secco.jpg'"
 
               class="object-cover w-full h-full mt-2"
               alt="Zafferano"
+              loading="lazy"
             />
             <CardFooter/>
           </div>
@@ -34,7 +35,7 @@ import CardFooter from './CardFooter.vue';
 export default {
     data() {
         return {
-            imageUrl: "/images/secco.png",
+            imageUrl: "/images/secco.jpg",
             zoom: false
         };
     },
