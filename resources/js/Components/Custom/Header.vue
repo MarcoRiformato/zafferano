@@ -13,7 +13,7 @@ let open = ref(false);
                         d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
                 </svg>
             </a>
-            <Link as="a" href="/">Zafferano Rifo</Link>
+            <Link as="a" href="/">Zafferano Rifo 0.2</Link>
             <button @click="open = !open" class="md:hidden">
                 <span v-show="!open">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"

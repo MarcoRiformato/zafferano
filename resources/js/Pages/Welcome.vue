@@ -18,7 +18,7 @@ phpVersion: String,
 </script>
 
 <template>
-<Head title="Zafferano" />
+<Head title="Zafferano 0.2" />
 <Header/>
 <Hero/>
 <CtaVue/>
